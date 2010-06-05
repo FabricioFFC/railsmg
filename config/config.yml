@@ -1,8 +1,8 @@
 # APP Global settings
 common: &common
-  name: RailsMG
-  support_email: contato@railsmg.org
-  noreply_email: nao-responda@railsmg.com
+  name: Testadores
+  support_email: testadores_ouvidoria@yahoogrupos.com.br
+  noreply_email: nao-responda@testadores.com.br
 
 development:
   <<: *common
@@ -14,4 +14,4 @@ test:
 
 production:
   <<: *common
-  domain: railsmg.org
+  domain: testadores.com.br

@@ -1,12 +1,12 @@
 # APP SETTINGS
-set :application, "railsmg"
-set :domain_name , "railsmg.org"
+set :application, "testadores"
+set :domain_name , "testadores.com.br"
 
 # GIT SETTINGS
-set :scm, :git
-set :repository,  "git@github.com:danielvlopes/railsmg.git"
-set :branch, "master"
-set :deploy_via, :remote_cache
+#set :scm, :git
+#set :repository,  "git@github.com:danielvlopes/railsmg.git"
+#set :branch, "master"
+#set :deploy_via, :remote_cache
 
 # SSH SETTINGS
 set :user , "git"

@@ -4,43 +4,43 @@
       %h2 Encontros
 
       %p
-        Nos encontramos mensalmente no segundo andar do restaurante Takê (#{link_to_take}).
+        Nos encontramos mensalmente em algum lugar em São Paulo.
         
       %p
         Todos os encontros são abertos ao público e não é necessário inscrição, basta aparecer.
 
       %p
         - if @next_meeting.present?
-          <strong>Próximo encontro: #{l @next_meeting.start_on} as 19:30</strong>
+          <strong>Próximo encontro: #{l @next_meeting.start_on} as 19:00</strong>
         - else
           Ainda não agendamos a data para o próximo encontro, então fique "de olho" aqui no site
           ou em nosso twitter para não perder.
 
-      %h2 Google Group
+      %h2 Grupo Yahoo!
 
       %p
         Os membros do nosso grupo também participam de uma lista de discussão
-        com tópicos relacionados a Ruby.
+        com tópicos relacionados a Teste de Software.
 
       %p
-        Se você possui dúvidas relacionadas a Ruby (ou Ruby on Rails), este
+        Se você possui dúvidas relacionadas a Teste de Software, este
         grupo provalvemente poderá ajudar.
 
       %p
-        #{link_to 'Registre-se', 'http://groups.google.com/group/rails-mg'} e
+        #{link_to 'Registre-se', 'http://br.groups.yahoo.com/group/testadores'} e
         comece a participar.
 
-      %h2 Procurando um desenvolvedor?
+      %h2 Procurando um testador?
 
       %p
-        Procurando um freelancer, desenvolvedor ou uma empresa especializada em
-        tópicos relacionados a Ruby? Envie um prospecto resumido de suas
-        necessidades na #{link_to 'lista de discussão', 'http://groups.google.com/group/rails-mg'}.
+        Procurando um freelancer, testador ou uma empresa especializada em
+        tópicos relacionados a Teste de Software? Envie um prospecto resumido de suas
+        necessidades na #{link_to 'lista de discussão', 'http://br.groups.yahoo.com/group/testadores'}.
 
       %h2 Twitter
 
       %p
-        Você pode seguir #{link_to '@railsmg', 'http://twitter.com/railsmg'} no
+        Você pode seguir #{link_to '@testador', 'http://twitter.com/testador'} no
         Twitter para ser lembrado dos encontros e outras atualizações.
 
   .yui-u.sidebar

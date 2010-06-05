@@ -1,15 +1,15 @@
 html {
-  background: #D6E6EE;
-  color: #1C4F66; }
+  background: #F0EFD8;
+  color: #333333; }
 
 a {
-  color: #C15559;
+  color: #006633;
   text-decoration: none; }
   a:hover {
-    color: #1C4F66; }
+    color: #3A3417; }
 
 h2 {
-  color: #51717f;
+  color: #333333;
   text-transform: uppercase; }
 
 hr {
@@ -41,7 +41,7 @@ hr {
   margin: 1em 0 3em 0; }
   #hd h1 {
     background: url(../images/ruby.png) no-repeat;
-    color: #51717F;
+    color: green;
     font-size: 297%;
     line-height: 80px;
     height: 88px;
@@ -49,7 +49,7 @@ hr {
     padding-left: 100px;
     position: absolute; }
     #hd h1 a {
-      color: #51717F; }
+      color: green; }
       #hd h1 a span {
         color: #AF1F24; }
 
@@ -61,18 +61,18 @@ hr {
     display: inline;
     margin-right: 2em; }
     #nav li.current a {
-      color: #C15559; }
+      color: #006633; }
   #nav a {
     color: #50707E;
     font-size: 123.1%;
     text-transform: uppercase; }
     #nav a:hover {
-      color: #C15559; }
+      color: #006633; }
 
 #content {
   padding: 10px 0; }
   #content .box {
-    background: #B7D2DF;
+    background: #BCE27F;
     behavior: url(/stylesheets/border-radius.htc);
     border-radius: 7px;
     -moz-border-radius: 7px;
@@ -80,7 +80,7 @@ hr {
     padding: 1px 10px;
     margin: 5px 0 5px 0; }
     #content .box h2 {
-      border-bottom: 2px solid #CAE4F0;
+      border-bottom: 2px groove #689E21;
       padding-bottom: .5em;
       margin-bottom: .5em; }
   #content .info {
@@ -340,7 +340,7 @@ hr {
     text-align: center; }
   #ft li {
     display: inline;
-    margin: auto 25px 10px auto; }
+    margin: 10px 25px 10px 0; }
     #ft li.first {
       margin-left: 0; }
   #ft a {
