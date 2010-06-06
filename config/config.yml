@@ -2,7 +2,7 @@
 common: &common
   name: Testadores
   support_email: testadores_ouvidoria@yahoogrupos.com.br
-  noreply_email: nao-responda@testadores.com.br
+  noreply_email: testadores_ouvidoria@yahoogrupos.com.br
 
 development:
   <<: *common
@@ -14,4 +14,4 @@ test:
 
 production:
   <<: *common
-  domain: testadores.com.br
+  domain: testadores.heroku.com
