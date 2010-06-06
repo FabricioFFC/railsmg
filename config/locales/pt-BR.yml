@@ -149,7 +149,7 @@ pt-BR:
         password: "Senha"
         password_confirmation: "Confirme sua senha"
         about: "Sobre você"
-        using_ruby_since: "Usando ruby desde"
+        using_ruby_since: "Trabalho com teste desde"
         city: "Cidade"
         public_email: "E-mail visível para todos?"
       meeting:

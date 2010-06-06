@@ -167,7 +167,7 @@ hr {
   line-height: 24px;
   margin-bottom: .5em; }
 #content.users.show .using_ruby_since {
-  background: url(../images/ruby.gif) center right no-repeat;
+  background: url(../images/bug.png) center right no-repeat;
   float: right;
   padding-right: 40px; }
 #content.users.show .about {
